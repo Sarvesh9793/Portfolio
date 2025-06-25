@@ -20,6 +20,7 @@ const skills = [
   { name: "MongoDB", icon: <SiMongodb className='text-green-700' />, level: 70, category: "backend" },
   { name: "PostgreSQL", icon: <SiPostgresql className='text-blue-800' />, level: 65, category: "backend" },
   { name: "GraphQL", icon: <SiGraphql className='text-pink-500' />, level: 60, category: "backend" },
+  { name: "Spring Boot", icon: <SiVscodium className='text-green-700' />, level: 65, category: "backend" },
 
   // Tools
   { name: "Git/GitHub", icon: <><FaGitAlt className='text-orange-600' /> <SiGithub className='text-gray-900 dark:text-white' /></>, level: 90, category: "tools" },
