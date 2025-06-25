@@ -3,10 +3,10 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
+    title: "Event Management System",
     description: "A beautiful landing page app using React and Tailwind.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    tags: ["React", "TailwindCSS", "Redux", "NodeJs", "ExpressJs", "MySQL"],
     demoUrl: "#",
     githubUrl: "#",
   },
@@ -62,8 +62,11 @@ export const ProjectsSection = () => {
 
               <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {project.tags.map((tag) => (
-                    <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
+                  {project.tags.map((tag, idx) => (
+                    <span
+                      key={tag + idx}
+                      className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground"
+                    >
                       {tag}
                     </span>
                   ))}
@@ -100,7 +103,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/Sarvesh9793"
           >
             Check My Github <ArrowRight size={16} />
           </a>

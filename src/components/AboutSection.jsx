@@ -16,16 +16,11 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+            I'm a passionate Full Stack Developer with expertise in modern web technologies. With a strong foundation in both frontend and backend development, I create seamless, responsive, and user-friendly applications that solve real-world problems.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+            My journey in web development started with a curiosity about how things work on the internet, which led me to explore various technologies and frameworks. I believe in writing clean, maintainable code and staying up-to-date with the latest industry trends.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -35,7 +30,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href=""
+                href="https://drive.google.com/file/d/1APiT-1qHezrh1Rx1WTHMPo4XRfe7rs3Y/view?usp=drive_link"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV

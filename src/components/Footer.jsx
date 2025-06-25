@@ -4,6 +4,9 @@ export const Footer = () => {
   return (
     <footer className="py-12 px-4 bg-card relative border-t border-border mt-12 pt-8 flex flex-wrap justify-between items-center">
       {" "}
+      <div className="text-xs text-muted-foreground mb-2 sm:mb-0">
+        Languages: English, Hindi
+      </div>
       <p className="text-sm text-muted-foreground">
         {" "}
         &copy; {new Date().getFullYear()} Pedrotech.co. All rights reserved.

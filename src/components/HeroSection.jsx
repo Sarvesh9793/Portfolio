@@ -12,11 +12,11 @@ export const HeroSection = () => {
             <span className="opacity-0 animate-fade-in"> Hi, I'm</span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1">
               {" "}
-              Pedro
+              Sarvesh
             </span>
             <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">
               {" "}
-              Machado
+              Gupta
             </span>
           </h1>
 
@@ -26,9 +26,17 @@ export const HeroSection = () => {
             both beautiful and functional.
           </p>
 
-          <div className="pt-4 opacity-0 animate-fade-in-delay-4">
+          <div className="pt-4 opacity-0 animate-fade-in-delay-4 flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a href="#projects" className="cosmic-button">
               View My Work
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1APiT-1qHezrh1Rx1WTHMPo4XRfe7rs3Y/view?usp=drive_link"
+              className="cosmic-button"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Hire Me
             </a>
           </div>
         </div>
