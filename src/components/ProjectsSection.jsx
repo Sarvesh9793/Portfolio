@@ -12,17 +12,17 @@ const projects = [
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Laptop Price Prediction",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "Predict the prices of laptops based on specifications using linear regression.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+    tags: ["Python", "Pandas", "NumPy", "Matplotlib", "Scikit-learn"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "FoodieWorld",
     description:
       "Full-featured e-commerce platform with user authentication and payment processing.",
     image: "/projects/project3.png",
