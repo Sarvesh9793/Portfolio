@@ -22,9 +22,9 @@ export const HeroSection = () => {
           </h1>
 
           <div className="flex flex-row items-center justify-center gap-2 opacity-0 animate-fade-in-delay-3">
-            <span className="opacity-0 animate-fade-in text-3xl">I am a</span>
+            <span className="opacity-0 animate-fade-in text-lg md:text-xl">I am a</span>
             <ReactTypingEffect
-              className="text-primary text-2xl md:text-3xl font-semibold"
+              className="text-primary text-lg md:text-2xl font-semibold"
               text={[
                 "Fullstack Developer",
                 "Web Developer",
