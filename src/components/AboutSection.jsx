@@ -3,7 +3,7 @@ import { WhatIDo } from "./WhatIDo";
 
 export const AboutSection = () => {
   return (
-    <section id="about" className="py-24 px-4 relative bg-background text-foreground">
+    <section id="about" className="py-24 px-4 relative bg-background/80 backdrop-blur-sm text-foreground">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">
           About <span className="text-primary">Me</span>
